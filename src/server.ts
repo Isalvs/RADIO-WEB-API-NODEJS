@@ -25,4 +25,4 @@ IO.on("connection", socket => {
     });
 })
 var port = process.env.PORT || 3000;
-server.listen(port, () => console.log('server running'));
+server.listen(port, () => console.log('server running', port));
