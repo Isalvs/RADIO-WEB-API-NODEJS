@@ -13,6 +13,7 @@ routes.get('/musics', songsController.index);
 routes.post('/musics/create', songsController.create);
 
 routes.get('/users', userController.index);
+routes.get('/', userController.index);
 routes.post('/users/create', userController.create);
 
 routes.post('/users/email_send', userController.sendEmail);
