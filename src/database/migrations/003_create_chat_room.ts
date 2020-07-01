@@ -2,10 +2,10 @@ import Knex from 'knex';
 export async function up(knex: Knex) {
     return knex.schema.createTable('roomchat', table => {
         table.increments('id').primary().unique();
-        table.integer('userID').references('users.id').notNullable().onDelete('CASCADE');
-        table.text('text').notNullable();
-        table.text('name').notNullable();
-        table.text('data').notNullable();
+        table.integer('userID',11).unsigned().references('id').inTable('users');
+        table.string('text', 255).notNullable();
+        table.string('name', 255).notNullable();
+        table.string('data', 255).notNullable();
         table.timestamps(true, true);
     });
 }
