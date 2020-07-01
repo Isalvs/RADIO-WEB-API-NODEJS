@@ -18,7 +18,7 @@ IO.on("connection", socket => {
             userID: msg.userID,
             text: msg.text,
             name: msg.name,
-            date: String(new Date().getTime())
+            data: String(new Date().getTime())
         }).then(e=>{
             console.log(e)
         }).catch(e=> console.log(e))

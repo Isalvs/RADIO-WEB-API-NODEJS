@@ -5,7 +5,7 @@ export async function up(knex: Knex) {
         table.integer('userID').references('users.id').notNullable().onDelete('CASCADE');
         table.text('text').notNullable();
         table.text('name').notNullable();
-        table.text('date').notNullable();
+        table.text('data').notNullable();
         table.timestamps(true, true);
     });
 }

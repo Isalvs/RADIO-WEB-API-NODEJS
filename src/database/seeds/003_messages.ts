@@ -6,7 +6,7 @@ exports.seed = function (knex: Knex) {
             userID: 1,
             text: "Olá pessoal, tudo bem com vocês?",
             name: 'Luis Santos',
-            date: String(new Date().getTime())
+            data: String(new Date().getTime())
         }
     ])
 }
