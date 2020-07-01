@@ -5,7 +5,6 @@ export async function up(knex: Knex) {
         table.integer('userID',11).unsigned().references('id').inTable('users');
         table.string('text', 255).notNullable();
         table.string('name', 255).notNullable();
-        table.string('data', 255).notNullable();
         table.timestamps(true, true);
     });
 }
