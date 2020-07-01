@@ -24,5 +24,5 @@ IO.on("connection", socket => {
         }).catch(e=> console.log(e))
     });
 })
-
-server.listen(3000, () => console.log('server running'));
+var port = process.env.PORT || 3000;
+server.listen(port, () => console.log('server running'));
