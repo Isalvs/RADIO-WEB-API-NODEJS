@@ -2,10 +2,13 @@ import express from 'express';
 import routes from './routes';
 import io from 'socket.io'
 import https from 'https';
+import cors from 'cors';
 import knex from '../src/database/connection';
 const app = express();
+app.use(cors())
 app.use(express.json());
 app.use(routes);
+
 const server = https.createServer(app);
 const IO = io.listen(server)
 
