@@ -5,7 +5,8 @@
   "main": "src/server.ts",
   "scripts": {
     "dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",
-    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest"
+    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
+    "start": "node /src/server.ts"
   },
   "keywords": [],
   "author": "",
