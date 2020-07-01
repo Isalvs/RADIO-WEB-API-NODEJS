@@ -60,6 +60,13 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.2.tgz#857a118d8634c84bba7ae14088e4508490cd5da5"
   integrity sha512-4kPlzbljFcsttWEq6aBW0OZe6BDajAmyvr2xknBG92tejQnvdGtT9+kXSZ580DqpxY9qG2xeQVF9Dq0ymUTo5Q==
 
+"@types/mysql@^2.15.14":
+  version "2.15.14"
+  resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-2.15.14.tgz#df60e7b5f531662a8758e74b7685bed2b0ef1835"
+  integrity sha512-YyNcxZZ4qlb9v41lu8Qfo+quX8eUqz4mr/6Nx7sclc2pUemOvjU7xrpuVave0/sR/VdtDPTXZOWQLC/kthxrHg==
+  dependencies:
+    "@types/node" "*"
+
 "@types/node@*":
   version "14.0.14"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.14.tgz#24a0b5959f16ac141aeb0c5b3cd7a15b7c64cbce"
@@ -2447,9 +2454,9 @@ trim-newlines@^1.0.0:
   integrity sha1-WIeWa7WCpFA6QetST301ARgVphM=
 
 ts-node-dev@^1.0.0-pre.44:
-  version "1.0.0-pre.49"
-  resolved "https://registry.yarnpkg.com/ts-node-dev/-/ts-node-dev-1.0.0-pre.49.tgz#28836f73fe9513f339ccb1c0bebdb2e2e25c52f0"
-  integrity sha512-iJd4QPPOaCAByl/WuEdmDX8xDR2GmoWYu6aKvGudGUcfP1sJRjpaHb7oFDuvBspQF1xhxUdbjfHuvEtZPwKZFQ==
+  version "1.0.0-pre.50"
+  resolved "https://registry.yarnpkg.com/ts-node-dev/-/ts-node-dev-1.0.0-pre.50.tgz#ee19d2658a8ada84efc6962850e6e941d9372f25"
+  integrity sha512-J1TzHLPejsfwKwvlCrk1MjDt3kXfE9mRa2YpAI4B9Ei+qbaIytkUR2Cx5Zv64f1EFW9XkDZiIMSLmV4NAhC72Q==
   dependencies:
     chokidar "^3.4.0"
     dateformat "~1.0.4-1.2.3"
@@ -2494,9 +2501,9 @@ type-is@~1.6.17, type-is@~1.6.18:
     mime-types "~2.1.24"
 
 typescript@^3.9.3:
-  version "3.9.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.5.tgz#586f0dba300cde8be52dd1ac4f7e1009c1b13f36"
-  integrity sha512-hSAifV3k+i6lEoCJ2k6R2Z/rp/H3+8sdmcn5NrS3/3kE7+RyZXm9aqvxWqjEXHAd8b0pShatpcdMTvEdvAJltQ==
+  version "3.9.6"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.9.6.tgz#8f3e0198a34c3ae17091b35571d3afd31999365a"
+  integrity sha512-Pspx3oKAPJtjNwE92YS05HQoY7z2SFyOpHo9MqJor3BXAGNaPUs83CuVp9VISFkSjyRfiTpmKuAYGJB7S7hOxw==
 
 unc-path-regex@^0.1.2:
   version "0.1.2"
