@@ -9,7 +9,7 @@
     "start": "ts-node src/server.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luis Santos",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
